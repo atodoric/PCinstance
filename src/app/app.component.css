@@ -5,3 +5,25 @@ main {
   margin-top: 50px;
   display: block;
 }
+
+a {
+    outline: none !important;
+}
+
+.icon-bar {
+    background-color: #e4551d;
+}
+
+@media (min-width: 1205px) {
+    #mainNavBar {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #mainNavBar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
