@@ -1,0 +1,9 @@
+.product-list {
+    border-style: dashed;
+    border-width: 2px;
+    width: 900px;
+    height: 455px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,15 @@
+html,
+body {
+    background-color: #F6F6F6;
+    height: 100%; 
+}
+
+a {
+    outline: none !important;
+}
+
+.float-right {
+    float: right;
+}
+
+

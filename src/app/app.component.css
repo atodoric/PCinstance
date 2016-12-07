@@ -1,29 +1,52 @@
-main {
-  padding: 1em;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-  display: block;
+.navbar {
+    border-radius: 0;
 }
 
-a {
-    outline: none !important;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
 }
 
-.icon-bar {
-    background-color: #e4551d;
+.logo-icon {
+    height: 1.7rem;
+    width: 1.7rem;
+
 }
 
-@media (min-width: 1205px) {
-    #mainNavBar {
-        padding-left: 150px;
+.login-icon {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.signup-icon {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.shopping-cart-icon {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.categories-icon {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.search-bar {
+    margin-right: 350px;
+}
+
+/*@media (min-width: 1205px) {
+    .navbar{
+        padding-left: 350px;
         padding-right: 150px;
     }
 }
 
 @media (max-width: 1200px) {
-    #mainNavBar {
-        padding-left: 0;
-        padding-right: 0;
+    .navbar {
+        padding-left: 5px;
+        padding-right: 5px;
     }
-}
+}*/
+
