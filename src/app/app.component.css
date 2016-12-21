@@ -6,34 +6,13 @@
     color: #fff;
 }
 
-.logo-icon {
-    height: 1.7rem;
-    width: 1.7rem;
-
-}
-
-.login-icon {
+.navbar-icon {
     height: 1.1rem;
     width: 1.1rem;
 }
 
-.signup-icon {
-    height: 1.1rem;
-    width: 1.1rem;
-}
-
-.shopping-cart-icon {
-    height: 1.1rem;
-    width: 1.1rem;
-}
-
-.categories-icon {
-    height: 1.1rem;
-    width: 1.1rem;
-}
-
-.search-bar {
-    margin-right: 350px;
+.navbar-right button:first-child {
+    margin-top: -1px;
 }
 
 /*@media (min-width: 1205px) {
