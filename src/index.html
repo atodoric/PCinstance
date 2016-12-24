@@ -13,10 +13,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
     <script type="text/javascript" language="javascript">
         $( document ).ready(function(){
+            $(window).on('resize', function(){                                
+              $('#search').css('height',$('#navbar').height());
+            })
             $('.carousel').carousel({dist: -50}); //carousel init
             $('select').material_select();             
-        });
-        
+        });        
     </script>
     <my-app>Loading...</my-app>    
   </body>

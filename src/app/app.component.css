@@ -3,12 +3,6 @@
 }
 
 @media (min-width: 1205px) {
-    input[type="search"] {
-        height: 64px !important; /* or height of nav */       
-    }
-}
-
-@media (min-width: 1205px) {
     .brand-logo {
         margin-left: 35px;
     }
@@ -27,3 +21,6 @@
   color: #fefefe;
 }
 
+#search {
+  height: 64px;
+}
