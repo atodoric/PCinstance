@@ -9,7 +9,13 @@ a {
 }
 
 .float-right {
-    float: right;
+    float: right !important;
 }
 
+.btn-custom-color {
+    background-color: rgba(166, 11, 11, 0.48);    
+}
 
+.padding-right-zero {
+    padding-right: 0px !important;
+}
