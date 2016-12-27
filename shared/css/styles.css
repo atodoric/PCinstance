@@ -1,8 +1,13 @@
-html,
-body {
-    background-color: #F6F6F6;
-    height: 100%; 
-}
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
 
 a {
     outline: none !important;
@@ -18,4 +23,11 @@ a {
 
 .padding-right-zero {
     padding-right: 0px !important;
+}
+
+.icon-small {
+    height: 17.6px;
+    width: 17.6px; 
+    margin-right: 10px;
+    vertical-align:middle
 }

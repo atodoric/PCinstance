@@ -1,6 +1,7 @@
-<nav id="navbar">
+<div class="page-flexbox-wrapper">
+	<nav id="navbar">
     <div class="nav-wrapper">
-        <a href="/" class="brand-logo"><i class="material-icons left">airplay</i> PCInstance</a>
+        <a a routerLink="/home" class="brand-logo"><i class="material-icons left">airplay</i> PCInstance</a>
         <ul class="right hide-on-med-and-down">
         <li>
             <form>
@@ -18,7 +19,38 @@
     </div>
 </nav>
 
-<div class="container">
+<main class="container">
     <router-outlet></router-outlet>
-</div>
+</main>
+
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="white-text">Footer Content</h5>
+				<p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="white-text">Connect</h5>
+				<ul>
+                    <li><a class="grey-text text-lighten-3" href="https://github.com/atodoric/PCinstance"><img src="../../shared/images/logos/github-logo.svg" class="icon-small"> Github</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!"><img src="../../shared/images/logos/twitter-logo-button.svg" class="icon-small"> Twitter</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!"><img src="../../shared/images/logos/facebook-logo-button.svg" class="icon-small"> Facebook</a></li>
+					<li><a class="grey-text text-lighten-3" href="#!"><img src="../../shared/images/logos/instagram-logo.svg" class="icon-small"> Instantgram</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer-copyright">
+		<div class="container">
+            © 2017 Copyright PCInstance team			
+		</div>
+	</div>
+</footer>
+
+</div>	
+
+
+
+
 

@@ -14,7 +14,6 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule }     from './app-routing.module';
 
 
-
 @NgModule({
   imports: [
     BrowserModule,
@@ -29,7 +28,7 @@ import { AppRoutingModule }     from './app-routing.module';
     HomeComponent,
     RegistrationComponent,
     CartComponent,
-    LoginComponent
+    LoginComponent,    
 ],
   bootstrap: [ AppComponent ]
 })
