@@ -13,6 +13,9 @@ import { LoginComponent } from './login/login.component';
 
 import { AppRoutingModule }     from './app-routing.module';
 
+import 'materialize-css';
+import {MaterializeDirective} from 'angular2-materialize';
+
 
 @NgModule({
   imports: [
@@ -28,7 +31,8 @@ import { AppRoutingModule }     from './app-routing.module';
     HomeComponent,
     RegistrationComponent,
     CartComponent,
-    LoginComponent,    
+    LoginComponent,
+    MaterializeDirective    
 ],
   bootstrap: [ AppComponent ]
 })
