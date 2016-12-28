@@ -38,12 +38,12 @@ module.exports = {
         include: helpers.root('src', 'app'),
         loader: 'raw'
       },
-      /*{
+      {
         test: /materialize-css\/dist\/js\/materialize\.js/,
         loader: 'imports?materializecss'
       },
       
-      { test: /.(png|woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/, loader: 'url-loader?limit=100000' }*/
+      { test: /.(png|woff(2)?|eot|ttf|svg)(\?[a-z0-9=\.]+)?$/, loader: 'url-loader?limit=100000' }
     ]
   },
 
